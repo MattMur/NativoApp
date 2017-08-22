@@ -28,7 +28,7 @@ https://docs.nativescript.org/ui/components.
         <ListView id="campaignsList" items="{{ campaignsList }}" class="campaignslist">
             <ListView.itemTemplate>
 
-                <Card:CardView class="cardStyle" margin="10" elevation="40" radius="5">
+                <Card:CardView class="cardStyle" margin="10" elevation="15" radius="0">
                     <grid-layout columns="auto" rows="auto">
                         <Label text="{{ name }}" class="campaign-title"/>
                     </grid-layout>
