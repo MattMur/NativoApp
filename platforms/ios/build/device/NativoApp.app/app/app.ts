@@ -7,7 +7,7 @@ purpose of the file is to pass control to the app’s first module.
 import "./shared/bundle-config";
 import * as app from 'application';
 
-app.start({ moduleName: './views/campaigns/campaigns' });
+app.start({ moduleName: './views/login/login' });
 
 /*
 Do not place any code after the application has been started as it will not
